@@ -1,0 +1,127 @@
+
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+}
+
+.header-menu .menu {
+    display: flex;
+    gap: 14px;
+}
+
+.header-menu .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu .menu a.active {
+    color: black;
+    font-weight: bold;
+}
+
+
+.header-menu .button-auth button {
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.menu-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 20px;
+}
+
+.card-menu {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form-area {
+    margin: 30px auto;
+    width: 80%; 
+    max-width: 1000px; 
+}
+
+.form-pendaftaran {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-pendaftaran label {
+    margin-top: 14px;
+    font-weight: 500;
+}
+
+.form-pendaftaran input {
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+}
+
+.form-pendaftaran button {
+    margin-top: 25px;
+    padding: 14px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.table-data {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.table-data th, .table-data td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-data th {
+    background-color: green;
+    color: white;
+}
+
+.content h2 {
+    text-align: center;
+
+}
+
+
