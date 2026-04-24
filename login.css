@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #4CAF50, #2e7d32);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+.btn-login:hover {
+    background: darkgreen;
+}
